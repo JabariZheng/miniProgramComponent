@@ -1,0 +1,7 @@
+<!-- component/dateTimePicker/dateTimePicker.wxml -->
+<view>
+    <picker mode="multiSelector" range="{{timesRange}}" range-key="{{'label'}}" bindchange="timePickerChange" bindcolumnchange="timePickerColumnChange" value="{{timePicker}}">
+        <text wx:if="{{timePickerValue.length == 0}}">请选择时间</text>
+        <text wx:else>{{timePickerText}}</text>
+    </picker>
+</view>

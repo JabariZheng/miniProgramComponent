@@ -1,0 +1,4 @@
+<!-- index.wxml -->
+<view class="container">
+  <dateTimePicker mode="datetime" bind:change="dateTimePickerChange"></dateTimePicker>
+</view>
